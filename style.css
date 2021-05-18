@@ -1,0 +1,45 @@
+.title {
+  position: relative;
+  font-style: normal;
+  color: orangered;
+  font-family: "Zen Dots", cursive;
+  font-size: 45px;
+  text-shadow: 2px 5px 5px rgb(255, 255, 255);
+}
+body {
+  background-image: url(Rocket.jpg);
+  background-color: rgb(19, 34, 46);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.logo {
+  width: 200px;
+  border-style: solid;
+  border-radius: 250px;
+  border-width: 5px;
+  border-color: orangered;
+}
+.profpic {
+  width: 50px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-style: solid;
+  border-radius: 100px;
+  border-width: 3px;
+  border-color: steelblue;
+}
+.button {
+  background-color: rgb(255, 175, 166);
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 3px;
+  border-color: orangered;
+  font-weight: bold;
+}
+button:hover {
+  background-color: orangered;
+}

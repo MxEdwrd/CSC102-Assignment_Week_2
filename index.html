@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+    Author: Max Edward
+    Email: maxedwar@uat.edu
+    Wk2 Assignment, Assignment Name: Mission Control Blast Off
+-->
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <script src="countdown.js"></script>
+    <title>UAT Space Program - Max Edward</title>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <img class="logo" src="UATspaceLogo.jpg" alt="UAT Space Logo" />
+      <h1 class="title">UAT Space Program</h1>
+      <img class="profpic" src="Skelly.png" alt="Max Edward" />
+      <p
+        style="
+          font-family: monospace;
+          font-size: 20px;
+          text-shadow: 0px 2px 2px rgb(255, 255, 255);
+          font-weight: bold;
+          color: brown;
+        "
+        :
+      >
+        Welcome to the UAT Space Webpage. Please click Start to begin the
+        countdown procedure.
+      </p>
+    </div>
+    <br />
+    <div
+      style="
+        text-align: center;
+        font-family: monospace;
+        font-size: 15px;
+        text-shadow: 0px 2px 2px rgb(255, 255, 255);
+        font-weight: bold;
+        color: brown;
+      "
+    >
+      Countdown Status:
+      <p id="countdownstatus">Waiting For Start...</p>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <button class="button" onclick="countdown();">Start</button>
+      <button class="button">Stop</button>
+    </div>
+  </body>
+</html>
